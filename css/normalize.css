@@ -1,0 +1,177 @@
+/*! Normalize.css simplificado e atualizado */
+
+/* Configuração básica do documento */
+html {
+  line-height: 1.15; /* Ajusta a altura da linha para uma leitura mais consistente */
+}
+
+/* Remove a margem padrão do corpo */
+body {
+  margin: 0;
+}
+
+/* Ajusta o tamanho e a margem de títulos h1 para uma exibição consistente */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Estilos de conteúdo agrupado */
+hr {
+  box-sizing: content-box; /* Define o box sizing padrão */
+  height: 0;
+}
+
+/* Estilos de fontes para elementos de código */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* Define fonte monoespaçada */
+  font-size: 1em;
+}
+
+/* Links: Remove o fundo cinza em links */
+a {
+  background-color: transparent;
+}
+
+/* Estilo para abreviações com atributo title */
+abbr[title] {
+  text-decoration: underline dotted; /* Adiciona sublinhado pontilhado */
+}
+
+/* Negrito e ênfase: Aplica o peso de fonte mais forte */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* Ajusta o tamanho da fonte de elementos pequenos */
+small {
+  font-size: 80%;
+}
+
+/* Ajustes para subscrito e sobrescrito */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Remove borda em imagens dentro de links */
+img {
+  border-style: none;
+}
+
+/* Configurações para herdar estilo de texto nos controles de formulário */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible; /* Garante que elementos de botão mostrem todo o conteúdo */
+}
+
+button,
+select {
+  text-transform: none; /* Remove transformações de texto automáticas */
+}
+
+/* Remove preenchimento interno de botões no Firefox */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* Ajustes de espaçamento e estilo em fieldset */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Garante alinhamento correto para elementos progress */
+progress {
+  vertical-align: baseline;
+}
+
+/* Permite barras de rolagem automáticas em textarea */
+textarea {
+  overflow: auto;
+}
+
+/* Configuração de checkbox e rádio */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Remove botões de incremento em campos numéricos no Chrome */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* Remove decoração interna de campo de pesquisa no Chrome e Safari */
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Estilização para botões de upload */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Exibição correta de elementos interativos */
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/* Elementos de modelo e ocultos */
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
